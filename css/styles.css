@@ -770,10 +770,10 @@ margin-bottom: 8px;
     border: 1px solid rgba(46, 47, 66, 0.4);
   border-radius: 4px;
     background-color: transparent;
-    transition: border var(--animation);
+    transition: border-color var(--animation);
 }
 .modal-form-input:focus {
-  border: 1px solid var(--color-ocean);
+  border-color: var(--color-ocean);
 }
 .modal-form-icon {
   position: absolute;
@@ -833,7 +833,7 @@ margin-bottom: 16px
       line-height: 1.17;
       letter-spacing: 0.04em;
       
-      transition: border var(--animation);
+      transition: border-color var(--animation);
 }
 .modal-form-comment::placeholder {
   color:  rgba(46, 47, 66, 0.40);
@@ -842,7 +842,7 @@ margin-bottom: 16px
     letter-spacing: 0.48px;
 }
 .modal-form-comment:focus {
-  border: 1px solid var(--color-ocean);
+  border-color: var(--color-ocean);
 }
 .label-checkbox {
 margin-bottom: 24px;
@@ -865,7 +865,7 @@ margin-bottom: 24px;
       border-radius: 2px;
       border: 1px solid rgba(46, 47, 66, 0.40);
       fill: transparent;
-      transition: border-color var(--animation), background-color var(--animation), fill var(--animation);
+      transition: border var(--animation), background-color var(--animation), fill var(--animation);
 }
 .modal-form-checkbox:checked+.modal-form-custom-checkbox {
   background-color: var(--color-link);
