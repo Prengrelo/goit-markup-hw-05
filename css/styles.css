@@ -806,7 +806,6 @@ position: absolute;
     padding: 16px 32px;
     display: block;
     margin: 0 auto;
-    margin-bottom: 24px;
     border: 0px;
     min-width: 169px;
     
@@ -832,7 +831,7 @@ margin-bottom: 16px
       font-size: 12px;
       line-height: 1.17;
       letter-spacing: 0.04em;
-      margin-bottom: 16px;
+      
       transition: border var(--animation);
 }
 .modal-form-comment::placeholder {
