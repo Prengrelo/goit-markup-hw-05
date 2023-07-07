@@ -865,11 +865,15 @@ margin-bottom: 24px;
       fill: transparent;
       transition: border var(--animation), background-color var(--animation), fill var(--animation);
 }
+.modal-form-custom-checkbox:focus {
+  border-color: var(--color-link);
+}
 .modal-form-checkbox:checked+.modal-form-accept .modal-form-custom-checkbox {
   background-color: var(--color-link);
   border: none;
   fill: #F4F4FD;
 }
+
 .modal-form-checkbox:checked+.modal-form-custom-checkbox>.modal-form-checkbox-icon {
   opacity: 1;
 }
