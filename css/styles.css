@@ -874,7 +874,7 @@ margin-bottom: 24px;
   opacity: 1;
 }
 .modal-form-checkbox-icon {
-  opacity: 0;
+  
   transition: opacity var(--animation);
 }
 .modal-form-link {
