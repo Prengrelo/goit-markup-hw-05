@@ -848,9 +848,6 @@ margin-bottom: 16px
 margin-bottom: 24px;
 }
 .modal-form-accept {
-  display: flex;
-  align-items: center;
-  gap: 8px;
   font-size: 12px;
   line-height: 1.17;
   letter-spacing: 0.04em;
@@ -860,6 +857,7 @@ margin-bottom: 24px;
   display: inline-flex;
   align-items: center;
   justify-content: center;
+  margin-right: 8px;
     width: 16px;
       height: 16px;
       border-radius: 2px;
